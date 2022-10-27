@@ -9,4 +9,5 @@ Simple demo to create image embeddings using Open AI's CLIP model and push the v
 
 ## Dataset
 [Bean leaf dataset](https://www.kaggle.com/datasets/prakharrastogi534/bean-leaf-dataset)
+
 [Know Your Data](https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=beans)
