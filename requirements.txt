@@ -1,0 +1,4 @@
+imgbeddings
+umap-learn
+umap-learn[plot]
+#Run this file with - pip3 install -r requirements.txt
