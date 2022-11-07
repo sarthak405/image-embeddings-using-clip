@@ -5,3 +5,4 @@ key-details:
 model-details:
   MODEL_ID: <YOUR_MODEL_NAME>
   MODEL_VERSION: <YOUR_MODEL_VERSION>
+image-base-url: <BASE_URL_FOR_THE_IMAGES>
