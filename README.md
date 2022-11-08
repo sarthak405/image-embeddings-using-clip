@@ -7,12 +7,16 @@ Simple demo to create image embeddings using Open AI's CLIP model and push the v
 2. Install files from `requirements.txt`
 
 ## Usage
-1. Execute `create_image_embedding_umap.ipynb` and create a csv file with the following headers
+1. Execute `beanleaf_classification_local_dataset.ipynb` for generate the tf model for classifying bean leaf
+
+2. Execute `create_image_embedding_csv.ipynb` and create a csv file with the following headers
     ```
-    ['name', 'url', 'actual_label', 'predicted_label', 'score', 'prediction_ts', 'vector']
+    ['model_name', 'model_version', 'name', 'url', 'actual_label', 'predicted_label', 'score', 'prediction_ts', 'vector']
     ```
 
     ```
+    model_name:     name of the model
+    model_version:  model version
     name:           name of the image file
     url:            path of the image file
     actual_label:   what is the actual label
@@ -22,9 +26,9 @@ Simple demo to create image embeddings using Open AI's CLIP model and push the v
     vector:         image embedding
     ```
 
-2. Execute `beanleaf_classification_local_dataset_observability.ipynb` to push it to arize
+3. Execute `beanleaf_classification_local_dataset_observability.ipynb` to push it to arize
 
-3. Go to Arize dashboard to see a new model `beanleaf-disease-classifier` created in the homepage
+4. Go to Arize dashboard to see a new model `beanleaf-disease-classifier` created in the homepage
 
 ## Dataset
 [Bean leaf dataset](https://www.kaggle.com/datasets/prakharrastogi534/bean-leaf-dataset)
