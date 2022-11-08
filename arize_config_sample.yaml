@@ -1,0 +1,8 @@
+# Replace with your key details and model information
+key-details:
+  SPACE_KEY: <YOUR_SPACE_KEY>
+  API_KEY: <YOUR_API_KEY>
+model-details:
+  MODEL_ID: <YOUR_MODEL_NAME>
+  MODEL_VERSION: <YOUR_MODEL_VERSION>
+image-base-url: <BASE_URL_FOR_THE_IMAGES>
