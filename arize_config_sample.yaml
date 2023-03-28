@@ -1,7 +1,7 @@
 # Replace with your key details and model information
 key-details:
-  SPACE_KEY: <YOUR_SPACE_KEY>
-  API_KEY: <YOUR_API_KEY>
+  SPACE_KEY: <YOUR_ARIZESPACE_KEY>
+  API_KEY: <YOUR_ARIZEAPI_KEY>
 model-details:
   MODEL_ID: <YOUR_MODEL_NAME>
   MODEL_VERSION: <YOUR_MODEL_VERSION>
